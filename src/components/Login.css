@@ -1,0 +1,33 @@
+.form2{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+.form-btn{
+    width: 80px;
+    color: aliceblue;
+    background-color: rgb(2, 2, 39);
+    border: 2px rgb(222, 4, 139) solid;
+    font-size: 19px;
+    border-radius: 5px;
+}
+fieldset{
+    padding: 10px;
+    width: 40%;
+    margin: 100px auto;
+    border: 2px rgb(222, 4, 139) solid;
+}
+fieldset legend{
+    color: white;
+}
+fieldset div{
+    margin-bottom: 10px;
+}
+
+.form-inp{
+    height: 30px;
+    
+}
+label sup{
+    color: red;
+}
