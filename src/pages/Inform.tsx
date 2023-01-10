@@ -2,6 +2,7 @@ import React, {useEffect,useState} from 'react'
 import Ingredients from '../components/Ingredients';
 import { Information } from '../type';
 import { useParams } from 'react-router-dom';
+import "./inform.css"
 
 const api1Url="https://www.themealdb.com/api/json/v1/1/lookup.php?i="
 
@@ -23,7 +24,7 @@ const Inform = () => {
     getInd()
   },[]);
   return (
-    <div>
+    <div className='ingredient-page'>
       <Ingredients 
       key={meal.idMeal}
       meal={meal}

@@ -7,7 +7,7 @@ import SearchBar from './SearchBar';
 import Categories from './Categories';
 
 const apiUrl="https://www.themealdb.com/api/json/v1/1/search.php?s="
-const apicategoryUrl="www.themealdb.com/api/json/v1/1/filter.php?c="
+
 
 
 
@@ -28,7 +28,6 @@ const Api = () => {
     setRecipes(data.meals);
     setIsLoading(false)
   };
-  const searchCategory=
   
   useEffect(() => {
     searchRecipes()

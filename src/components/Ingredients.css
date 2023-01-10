@@ -1,0 +1,30 @@
+ul{
+    list-style: none;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+.img-container{
+    width: 42%;
+}
+.img-container img{
+    width: 35vw;
+    height: 35vw;
+}
+.img-container h2 {
+    font-size: 30px;
+}
+.img-container span {
+    font-size: 20px;
+}
+.cards-body{
+    width: 48%;
+}
+.cards-body h2{
+    font-size: 37px;
+}
+.cards-body p,li{
+    font-size: 20px;
+}
+

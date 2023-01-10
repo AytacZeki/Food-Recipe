@@ -2,6 +2,8 @@
 .navbar-body{
     width: 100%;
     background: linear-gradient(#f81eb3,#02001f);
+    height: 100px;
+    position: fixed;
 }
 .navbar-body div{
     width: 90%;
@@ -23,4 +25,14 @@ h1{
     padding: 4px;
     border-radius: 5px;
     text-decoration: none;
+    width: 60px;
+}
+.with-logo{
+    display: flex;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    margin-left: 5px;
+    margin-top: 8px;
 }

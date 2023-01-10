@@ -19,7 +19,7 @@ const Categories = () => {
   }, []);
 
   const onClick=(e: React.MouseEvent<HTMLButtonElement>) =>{
-console.log(e.target)
+e.preventDefault()
   }
   return (
     <div className="categories">
