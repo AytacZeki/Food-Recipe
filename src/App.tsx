@@ -6,6 +6,7 @@ import SignupForm from "./components/Login";
 import Navbar from "./components/Navbar";
 import Inform from "./pages/Inform";
 import MainPage from "./pages/MainPage";
+import Categories from "./components/Categories";
 function App() {
   return (
     <BrowserRouter>
@@ -15,7 +16,8 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/:id" element={<Inform />} />
-            <Route path="/login" element={<SignupForm/>}></Route>
+            <Route path="/login" element={<SignupForm/>}/>
+            <Route path="/categories" element = {<Categories/>}/>
           </Routes>
         </div>
       </div>

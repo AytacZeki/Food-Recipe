@@ -111,7 +111,7 @@ export interface Root {
   }
 
   export interface CategoryName {
-    strCategory: string
+    
   }
   
   

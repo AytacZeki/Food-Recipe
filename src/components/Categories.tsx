@@ -4,7 +4,11 @@ import "./Categories.css";
 
 const apilistUrl = "https://www.themealdb.com/api/json/v1/1/list.php?c=list";
 const Categories = () => {
-  const [category, setCategory] = useState<CategoryName[]>([]);
+  // const [category, setCategory] = useState({strCategory: string;}[{strCategory: ""}]);
+
+  const [category, setCategory] = useState<{strCategory: string;}[]>(
+    [],
+  );
 
   const categoryList = () => {
     fetch(apilistUrl)
