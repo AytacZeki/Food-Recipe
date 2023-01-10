@@ -111,7 +111,9 @@ export interface Root {
   }
 
   export interface CategoryName {
-    
+    strMeal: string
+    strMealThumb: string
+    idMeal: string
   }
   
   
