@@ -8,11 +8,11 @@ import "./Main.css";
 const MainPage = () => {
   return (
     <div>
-      <div className="main">
+      <div className="mains">
         <div className="img-side">
           <img src={logo} alt="logo" className="logo1" />
         </div>
-        <div>
+        <div className="api">
           <Api />
         </div>
       </div>

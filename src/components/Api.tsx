@@ -35,7 +35,7 @@ const Api = () => {
   }
 
   return (
-    <div className="container">
+    <div className="contain">
       
       <SearchBar
       value={query}

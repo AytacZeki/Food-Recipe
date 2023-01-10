@@ -1,4 +1,4 @@
-img{
+.card img{
     width: 100%;
     margin: 0 auto;
     border-radius: 5%;
@@ -28,7 +28,7 @@ img{
         width: 45%;
         margin-bottom: 7%;
     }
-    img{
+    .card img{
         height: 25vw;
     }
 }
@@ -38,7 +38,7 @@ img{
         width: 70%;
         margin-bottom: 7%;
     }
-    img{
+    .card img{
         height: 37vw;
     }
 }

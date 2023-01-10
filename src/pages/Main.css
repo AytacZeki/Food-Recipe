@@ -1,6 +1,10 @@
-.main{
+.mains{
     display: flex;
+    justify-content: space-between;
     width: 100%;
+}
+.api{
+    width: 80%;
 }
 .contact{
     width: 74%;
@@ -41,10 +45,10 @@
     position: fixed;
     width: 24vw;
     height: 40vw;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .img-side{
-    width: 100%;
+    width: 20%;
 }
 .insta{
     margin-top: 10px;
@@ -63,7 +67,7 @@
     .img-side{
         display: none;
     }
-    .main{
+    .mains{
         width: 90%;
         margin: 0 auto;
     }

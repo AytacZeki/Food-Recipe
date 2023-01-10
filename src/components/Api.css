@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.container{
-    padding-top: 55px;
+.contain{
+    margin-top: 100px;
+    width: 100%;
+    
 }

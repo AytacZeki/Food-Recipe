@@ -6,7 +6,7 @@ import logo from "../img/pngwing.com.png";
 const Navbar = () => {
   return (
     <div className="navbar-body">
-      <div>
+      <div className="with-login">
         <div className="with-logo">
           <h1>SunQueen</h1>
           <img src={logo} alt="logo" className="logo" />

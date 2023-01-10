@@ -5,13 +5,13 @@
     height: 100px;
     position: fixed;
 }
-.navbar-body div{
+.with-login{
     width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-h1{
+.with-logo h1{
     font-family: 'Rubik Bubbles',sans-serif;
     font-size: 45px;
     padding-top: 10px;
